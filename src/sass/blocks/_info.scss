@@ -1,0 +1,65 @@
+.info {
+	padding: 58px 0 73px 0;
+	min-height: 342px;
+
+	&__icon {
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		width: 102px;
+		height: 102px;
+		border: 1px solid #ffffff;
+		border-radius: 50%;
+	}
+
+	&__title {
+		margin-top: 16px;
+		font-size: 26px;
+		line-height: 1;
+		font-weight: 700;
+		color: #ffffff;
+		text-align: center;
+	}
+
+	&__descr {
+		margin-top: 13px;
+		font-size: 19px;
+		line-height: 27px;
+		font-weight: 300;
+		color: #ffffff;
+		text-align: center;
+	}
+
+	&_agent {
+		background: url('../img/agent_bg.png') center (center / cover) no-repeat;	
+
+		.info__descr {
+			width: 984px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.info__icon {
+			img {
+				margin-top: 20px;
+			}
+		}
+	}
+
+	&_managers {
+		background: url('../img/managers_bg.png') center (center / cover) no-repeat;	
+
+		.info__descr {
+			width: 924px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.info__icon {
+			img {
+				margin-top: 24px;
+			}
+		}
+	}
+}

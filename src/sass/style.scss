@@ -1,0 +1,46 @@
+//libs
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'libs/tiny-slider';
+
+// @import 'libs/tiny-slider';
+// @import 'libs/slick';
+// @import 'libs/animate.min';
+
+//base
+@import 'base/variables';
+// @import 'base/animations';
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	position: relative;
+	overflow: visible;
+	max-width: 1141px;
+	margin: 0 auto;
+}
+
+//blocks
+@import 'blocks/title';
+@import 'blocks/subtitle';
+@import 'blocks/divider';
+@import 'blocks/button';
+@import 'blocks/form';
+@import 'blocks/delivery-item';
+@import 'blocks/call-me';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/advantages';
+@import 'blocks/work';
+@import 'blocks/info';
+@import 'blocks/delivery';
+@import 'blocks/consultation';
+@import 'blocks/scheme';
+@import 'blocks/reviews';
+@import 'blocks/questions';
+@import 'blocks/map';
+@import 'blocks/footer';
+
+@import 'base/media';
