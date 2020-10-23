@@ -4,17 +4,20 @@ const slider = tns({
 	startIndex: 1,
 	speed: 600,
 	loop: false,
+	fixedWidth: 250,
 	rewind: true,
-	fixedWidth: 601,
 	center: true,
 	controls: false,
-	nav: true,
+	nav: false,
 	touch: false,
 	mouseDrag: false,
 	navPosition: 'bottom',
 	responsive: {
-		992: {
-		  nav: false
+		769: {
+			fixedWidth: 601,
+		},
+		577: {
+			fixedWidth: 550,
 		}
 	}
 });

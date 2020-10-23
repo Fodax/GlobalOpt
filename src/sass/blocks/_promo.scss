@@ -1,5 +1,5 @@
 .promo {
-	padding: 23px 0 0 0;
+	padding: 23px 0 80px 0;
 	min-height: 680px;
 	background: url('../img/promo_bg.png') center (center / cover) no-repeat;
 
@@ -67,7 +67,7 @@
 		flex-flow: column;
 		
 		max-width: 262px;
-		height: 135px;
+		min-height: 135px;
 
 		img {
 			height: 50px;
