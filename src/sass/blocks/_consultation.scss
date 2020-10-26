@@ -11,7 +11,7 @@
 		text-align: center;
 	}
 
-	&__icon {
+	&__icon-wrapper {
 		position: absolute;
 		z-index: 1;
 		left: 50%;
@@ -21,10 +21,17 @@
 		display: flex;
 		justify-content: center;
 		align-items: flex-start;
+		width: 126px;
+		height: 102px;
+	}
+
+	&__icon {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
 		width: 102px;
 		height: 102px;
 		border: 1px solid $main-color;
-		outline: 12px solid #fff;
 		border-radius: 50%;
 
 		img {
