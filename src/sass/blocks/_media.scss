@@ -140,20 +140,8 @@
 		max-width: 720px;
 	}
 
-	// .button {
-	// 	&_call-me {
-	// 		display: none;
-	// 	}
-	// }
-
 	.subtitle {
 		width: 680px;
-	}
-
-	.button {
-		&_call-me {
-			display: none;
-		}
 	}
 
 	.call-me {
@@ -163,6 +151,12 @@
 
 		&_footer {
 			margin-left: 52px;
+
+			.button {
+				&_call-me {
+					display: none;
+				}
+			}
 		}
 	}
 
@@ -293,6 +287,12 @@
 		width: 482px;
 	}
 
+	.call-me {
+		&_footer {
+			margin-left: 51px;
+		}
+	}
+
 	.header {
 		justify-content: space-between;
 
@@ -405,19 +405,19 @@
 		line-height: 19px;
 	}
 
-	.button {
-		&_call-me {
-			display: none;
-		}
-	}
-
 	.call-me {
 		&_header {
 			margin-top: 0;
+
+			.button {
+				&_call-me {
+					display: none;
+				}
+			}
 		}
 
 		&_footer {
-			margin-left: 111px;
+			margin-left: 0;
 		}
 	}
 
@@ -575,6 +575,11 @@
 	.footer {
 		padding: 20px 0 23px;
 		min-height: 171px;
+
+		&__top {
+			display: flex;
+			justify-content: space-between;
+		}
 
 		&__title {
 			display: none;
